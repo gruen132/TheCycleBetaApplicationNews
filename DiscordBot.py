@@ -45,7 +45,7 @@ async def on_message(message):
     if message.channel.id == FEED_CHANNEL_ID:
 
         # Check if it's a "crosspost" (followed message) or a webhook
-        if message.flags.crossposted or message.webhook_id:
+        
 
             # Prepare the notification content
             msg_content = message.content
