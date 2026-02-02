@@ -5,7 +5,7 @@ from threading import Thread
 import os
 
 # --- CONFIGURATION ---
-TOKEN = 'MTQ2NzY3ODkxODMxOTI4MDIzMA.GmChn1.m1RgkjspkRmLlCfUsUl46mHiTQccwTBY_1x6og'
+TOKEN = os.environ['TOKEN']
 FEED_CHANNEL_ID = 1467674576212463689  # Replace with your channel ID (integer, no quotes)
 NTFY_TOPIC = 'cyclenews'  # Replace with your ntfy topic
 # ---------------------
